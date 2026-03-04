@@ -1,0 +1,79 @@
+﻿npx : [33mThe CJS 
+build of Vite's Node 
+API is deprecated. See 
+https://vite.dev/guide/
+troubleshooting.html#vi
+te-cjs-node-api-depreca
+ted for more 
+details.[39m
+En línea: 1 Carácter: 1
++ npx vitest run src/ap
+p/login/login.test.tsx 
+2>&1 | Out-File 
+-FilePath ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([33mThe CJS    
+ bu...e details.[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+[7m[1m[36m RUN [39m[22m[27m [36mv2.0.0[39m [90mC:/Users/migux/Downloads/finanzas[39m
+
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1m[7m Unhandled Errors [27m[22mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+[31m[1m
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.[22m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+[1m[7m Unhandled 
+Error [27m[22mÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+[31m[1mError[22m: 
+require() of ES Module 
+C:\Users\migux\Download
+s\finanzas\node_modules
+\@csstools\css-calc\dis
+t\index.mjs not 
+supported.
+Instead change the 
+require of C:\Users\mig
+ux\Downloads\finanzas\n
+ode_modules\@csstools\c
+ss-calc\dist\index.mjs 
+to a dynamic import() 
+which is available in 
+all CommonJS 
+modules.[39m
+[90m [2mÔØ»[22m 
+Object.<anonymous> node
+_modules/@asamuzakjp/cs
+s-color/dist/cjs/index.
+cjs:[2m30:24[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»[22m[39m
+[31m[1mSerialized 
+Error:[22m[39m 
+[90m{ code: 
+'ERR_REQUIRE_ESM' 
+}[39m
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+
+[2m Test Files [22m [90m (1)[39m
+[2m      Tests [22m [2mno tests[22m
+[2m     Errors [22m [1m[31m1 error[39m[22m
+[2m   Start at [22m 17:27:06
+[2m   Duration [22m 588ms[2m (transform 23ms, setup 0ms, collect 0ms, tests 0ms, environment 0ms, prepare 0ms)[22m
+

@@ -1,0 +1,7068 @@
+﻿npx : [33mThe CJS 
+build of Vite's Node 
+API is deprecated. See 
+https://vite.dev/guide/
+troubleshooting.html#vi
+te-cjs-node-api-depreca
+ted for more 
+details.[39m
+En línea: 1 Carácter: 1
++ npx vitest run src/ap
+p/login/login.test.tsx 
+2>&1 | Out-File 
+-FilePath ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([33mThe CJS    
+ bu...e details.[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+[7m[1m[36m RUN [39m[22m[27m [36mv2.0.0[39m [90mC:/Users/migux/Downloads/finanzas[39m
+
+ [31mÔØ»[39m src/app/login/login.test.tsx [2m ([22m[2m5 tests[22m [2m|[22m [31m5 failed[39m[2m)[22m[90m 108[2mms[22m[39m
+[31m   [31m├ù[31m LoginPage[2m > [22mrenders the login form correctly[39m
+[31m     ÔåÆ Found a label with the text of: Correo electr├│nico, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-[#060912] flex"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"hidden lg:flex lg:w-1/2 flex-col justify-between p-12 relative overflow-hidden"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute inset-0 bg-gradient-to-br from-[#0f1629] via-[#0a0f1e] to-[#060912]"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/25"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white tracking-tight"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10 space-y-6"[31m
+        [36m>[31m
+          [36m<div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-4xl font-bold text-white leading-tight mb-4"[31m
+            [36m>[31m
+              [0mTu vida financiera,[0m
+              [36m<br />[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent"[31m
+              [36m>[31m
+                [0mbajo control total.[0m
+              [36m</span>[31m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-[#8899cc] text-lg leading-relaxed"[31m
+            [36m>[31m
+              [0mRegistra ingresos, controla gastos, construye tu ahorro y gestiona tus ingresos extraordinarios en un solo lugar.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-4"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-emerald-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-trending-up w-5 h-5 text-emerald-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M16 7h6v6"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"m22 7-8.5 8.5-5-5L2 17"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mFlujo de caja en tiempo real[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-blue-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-chart-column w-5 h-5 text-blue-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M3 3v16a2 2 0 0 0 2 2h16"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M18 17V9"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M13 17V5"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M8 17v-3"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mReportes financieros precisos[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-violet-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-shield w-5 h-5 text-violet-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mDatos privados y seguros[0m
+              [36m</span>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+          [36m>[31m
+            [0mÔÇ£El control financiero no es austeridad ÔÇö es libertad.ÔÇØ[0m
+          [36m</p>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 flex items-center justify-center p-6 lg:p-12"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md animate-fade-in"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3 mb-8 lg:hidden"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"glass rounded-2xl p-8 border border-white/8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-8"[31m
+            [36m>[31m
+              [36m<h2[31m
+                [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+              [36m>[31m
+                [0mBienvenido de vuelta[0m
+              [36m</h2>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#8899cc]"[31m
+              [36m>[31m
+                [0mInicia sesi├│n para ver tu resumen financiero[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-5"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mCorreo electr├│nico[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mautocomplete[31m=[32m"email"[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"tu@email.com"[31m
+                  [33mrequired[31m=[32m""[31m
+                  [33mtype[31m=[32m"email"[31m
+                  [33mvalue[31m=[32m""[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mContrase├▒a[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mautocomplete[31m=[32m"current-password"[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm pr-12"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó"[31m
+                    [33mrequired[31m=[32m""[31m
+                    [33mtype[31m=[32m"password"[31m
+                    [33mvalue[31m=[32m""[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"absolute right-3.5 top-1/2 -translate-y-1/2 text-[#4a5880] hover:text-[#8899cc] transition-colors"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [36m<svg[31m
+                      [33maria-hidden[31m=[32m"true"[31m
+                      [33mclass[31m=[32m"lucide lucide-eye w-4 h-4"[31m
+                      [33mfill[31m=[32m"none"[31m
+                      [33mheight[31m=[32m"24"[31m
+                      [33mstroke[31m=[32m"currentColor"[31m
+                      [33mstroke-linecap[31m=[32m"round"[31m
+                      [33mstroke-linejoin[31m=[32m"round"[31m
+                      [33mstroke-width[31m=[32m"2"[31m
+                      [33mviewBox[31m=[32m"0 0 24 24"[31m
+                      [33mwidth[31m=[32m"24"[31m
+                      [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                    [36m>[31m
+                      [36m<path[31m
+                        [33md[31m=[32m"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"[31m
+                      [36m/>[31m
+                      [36m<circle[31m
+                        [33mcx[31m=[32m"12"[31m
+                        [33mcy[31m=[32m"12"[31m
+                        [33mr[31m=[32m"3"[31m
+                      [36m/>[31m
+                    [36m</svg>[31m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm transition-all hover:from-blue-500 hover:to-violet-500 hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98]"[31m
+                [33mid[31m=[32m"login-submit"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mIniciar sesi├│n[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+              [36m>[31m
+                [0m┬┐No tienes cuenta?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-400 hover:text-blue-300 font-medium transition-colors"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mReg├¡strate gratis[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [31m├ù[31m LoginPage[2m > [22mallows users to type in the email and password fields[39m
+[31m     ÔåÆ Found a label with the text of: Correo electr├│nico, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-[#060912] flex"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"hidden lg:flex lg:w-1/2 flex-col justify-between p-12 relative overflow-hidden"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute inset-0 bg-gradient-to-br from-[#0f1629] via-[#0a0f1e] to-[#060912]"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/25"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white tracking-tight"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10 space-y-6"[31m
+        [36m>[31m
+          [36m<div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-4xl font-bold text-white leading-tight mb-4"[31m
+            [36m>[31m
+              [0mTu vida financiera,[0m
+              [36m<br />[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent"[31m
+              [36m>[31m
+                [0mbajo control total.[0m
+              [36m</span>[31m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-[#8899cc] text-lg leading-relaxed"[31m
+            [36m>[31m
+              [0mRegistra ingresos, controla gastos, construye tu ahorro y gestiona tus ingresos extraordinarios en un solo lugar.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-4"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-emerald-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-trending-up w-5 h-5 text-emerald-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M16 7h6v6"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"m22 7-8.5 8.5-5-5L2 17"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mFlujo de caja en tiempo real[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-blue-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-chart-column w-5 h-5 text-blue-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M3 3v16a2 2 0 0 0 2 2h16"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M18 17V9"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M13 17V5"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M8 17v-3"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mReportes financieros precisos[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-violet-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-shield w-5 h-5 text-violet-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mDatos privados y seguros[0m
+              [36m</span>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+          [36m>[31m
+            [0mÔÇ£El control financiero no es austeridad ÔÇö es libertad.ÔÇØ[0m
+          [36m</p>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 flex items-center justify-center p-6 lg:p-12"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md animate-fade-in"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3 mb-8 lg:hidden"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"glass rounded-2xl p-8 border border-white/8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-8"[31m
+            [36m>[31m
+              [36m<h2[31m
+                [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+              [36m>[31m
+                [0mBienvenido de vuelta[0m
+              [36m</h2>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#8899cc]"[31m
+              [36m>[31m
+                [0mInicia sesi├│n para ver tu resumen financiero[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-5"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mCorreo electr├│nico[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mautocomplete[31m=[32m"email"[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"tu@email.com"[31m
+                  [33mrequired[31m=[32m""[31m
+                  [33mtype[31m=[32m"email"[31m
+                  [33mvalue[31m=[32m""[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mContrase├▒a[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mautocomplete[31m=[32m"current-password"[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm pr-12"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó"[31m
+                    [33mrequired[31m=[32m""[31m
+                    [33mtype[31m=[32m"password"[31m
+                    [33mvalue[31m=[32m""[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"absolute right-3.5 top-1/2 -translate-y-1/2 text-[#4a5880] hover:text-[#8899cc] transition-colors"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [36m<svg[31m
+                      [33maria-hidden[31m=[32m"true"[31m
+                      [33mclass[31m=[32m"lucide lucide-eye w-4 h-4"[31m
+                      [33mfill[31m=[32m"none"[31m
+                      [33mheight[31m=[32m"24"[31m
+                      [33mstroke[31m=[32m"currentColor"[31m
+                      [33mstroke-linecap[31m=[32m"round"[31m
+                      [33mstroke-linejoin[31m=[32m"round"[31m
+                      [33mstroke-width[31m=[32m"2"[31m
+                      [33mviewBox[31m=[32m"0 0 24 24"[31m
+                      [33mwidth[31m=[32m"24"[31m
+                      [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                    [36m>[31m
+                      [36m<path[31m
+                        [33md[31m=[32m"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"[31m
+                      [36m/>[31m
+                      [36m<circle[31m
+                        [33mcx[31m=[32m"12"[31m
+                        [33mcy[31m=[32m"12"[31m
+                        [33mr[31m=[32m"3"[31m
+                      [36m/>[31m
+                    [36m</svg>[31m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm transition-all hover:from-blue-500 hover:to-violet-500 hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98]"[31m
+                [33mid[31m=[32m"login-submit"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mIniciar sesi├│n[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+              [36m>[31m
+                [0m┬┐No tienes cuenta?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-400 hover:text-blue-300 font-medium transition-colors"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mReg├¡strate gratis[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [31m├ù[31m LoginPage[2m > [22mhandles successful login and redirects to dashboard[39m
+[31m     ÔåÆ Found a label with the text of: Correo electr├│nico, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-[#060912] flex"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"hidden lg:flex lg:w-1/2 flex-col justify-between p-12 relative overflow-hidden"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute inset-0 bg-gradient-to-br from-[#0f1629] via-[#0a0f1e] to-[#060912]"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/25"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white tracking-tight"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10 space-y-6"[31m
+        [36m>[31m
+          [36m<div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-4xl font-bold text-white leading-tight mb-4"[31m
+            [36m>[31m
+              [0mTu vida financiera,[0m
+              [36m<br />[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent"[31m
+              [36m>[31m
+                [0mbajo control total.[0m
+              [36m</span>[31m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-[#8899cc] text-lg leading-relaxed"[31m
+            [36m>[31m
+              [0mRegistra ingresos, controla gastos, construye tu ahorro y gestiona tus ingresos extraordinarios en un solo lugar.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-4"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-emerald-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-trending-up w-5 h-5 text-emerald-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M16 7h6v6"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"m22 7-8.5 8.5-5-5L2 17"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mFlujo de caja en tiempo real[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-blue-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-chart-column w-5 h-5 text-blue-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M3 3v16a2 2 0 0 0 2 2h16"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M18 17V9"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M13 17V5"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M8 17v-3"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mReportes financieros precisos[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-violet-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-shield w-5 h-5 text-violet-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mDatos privados y seguros[0m
+              [36m</span>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+          [36m>[31m
+            [0mÔÇ£El control financiero no es austeridad ÔÇö es libertad.ÔÇØ[0m
+          [36m</p>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 flex items-center justify-center p-6 lg:p-12"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md animate-fade-in"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3 mb-8 lg:hidden"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"glass rounded-2xl p-8 border border-white/8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-8"[31m
+            [36m>[31m
+              [36m<h2[31m
+                [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+              [36m>[31m
+                [0mBienvenido de vuelta[0m
+              [36m</h2>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#8899cc]"[31m
+              [36m>[31m
+                [0mInicia sesi├│n para ver tu resumen financiero[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-5"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mCorreo electr├│nico[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mautocomplete[31m=[32m"email"[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"tu@email.com"[31m
+                  [33mrequired[31m=[32m""[31m
+                  [33mtype[31m=[32m"email"[31m
+                  [33mvalue[31m=[32m""[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mContrase├▒a[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mautocomplete[31m=[32m"current-password"[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm pr-12"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó"[31m
+                    [33mrequired[31m=[32m""[31m
+                    [33mtype[31m=[32m"password"[31m
+                    [33mvalue[31m=[32m""[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"absolute right-3.5 top-1/2 -translate-y-1/2 text-[#4a5880] hover:text-[#8899cc] transition-colors"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [36m<svg[31m
+                      [33maria-hidden[31m=[32m"true"[31m
+                      [33mclass[31m=[32m"lucide lucide-eye w-4 h-4"[31m
+                      [33mfill[31m=[32m"none"[31m
+                      [33mheight[31m=[32m"24"[31m
+                      [33mstroke[31m=[32m"currentColor"[31m
+                      [33mstroke-linecap[31m=[32m"round"[31m
+                      [33mstroke-linejoin[31m=[32m"round"[31m
+                      [33mstroke-width[31m=[32m"2"[31m
+                      [33mviewBox[31m=[32m"0 0 24 24"[31m
+                      [33mwidth[31m=[32m"24"[31m
+                      [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                    [36m>[31m
+                      [36m<path[31m
+                        [33md[31m=[32m"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"[31m
+                      [36m/>[31m
+                      [36m<circle[31m
+                        [33mcx[31m=[32m"12"[31m
+                        [33mcy[31m=[32m"12"[31m
+                        [33mr[31m=[32m"3"[31m
+                      [36m/>[31m
+                    [36m</svg>[31m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm transition-all hover:from-blue-500 hover:to-violet-500 hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98]"[31m
+                [33mid[31m=[32m"login-submit"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mIniciar sesi├│n[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+              [36m>[31m
+                [0m┬┐No tienes cuenta?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-400 hover:text-blue-300 font-medium transition-colors"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mReg├¡strate gratis[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [31m├ù[31m LoginPage[2m > [22mdisplays an error message when login fails[39m
+[31m     ÔåÆ Found a label with the text of: Correo electr├│nico, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-[#060912] flex"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"hidden lg:flex lg:w-1/2 flex-col justify-between p-12 relative overflow-hidden"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute inset-0 bg-gradient-to-br from-[#0f1629] via-[#0a0f1e] to-[#060912]"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/25"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white tracking-tight"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10 space-y-6"[31m
+        [36m>[31m
+          [36m<div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-4xl font-bold text-white leading-tight mb-4"[31m
+            [36m>[31m
+              [0mTu vida financiera,[0m
+              [36m<br />[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent"[31m
+              [36m>[31m
+                [0mbajo control total.[0m
+              [36m</span>[31m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-[#8899cc] text-lg leading-relaxed"[31m
+            [36m>[31m
+              [0mRegistra ingresos, controla gastos, construye tu ahorro y gestiona tus ingresos extraordinarios en un solo lugar.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-4"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-emerald-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-trending-up w-5 h-5 text-emerald-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M16 7h6v6"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"m22 7-8.5 8.5-5-5L2 17"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mFlujo de caja en tiempo real[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-blue-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-chart-column w-5 h-5 text-blue-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M3 3v16a2 2 0 0 0 2 2h16"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M18 17V9"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M13 17V5"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M8 17v-3"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mReportes financieros precisos[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-violet-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-shield w-5 h-5 text-violet-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mDatos privados y seguros[0m
+              [36m</span>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+          [36m>[31m
+            [0mÔÇ£El control financiero no es austeridad ÔÇö es libertad.ÔÇØ[0m
+          [36m</p>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 flex items-center justify-center p-6 lg:p-12"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md animate-fade-in"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3 mb-8 lg:hidden"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"glass rounded-2xl p-8 border border-white/8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-8"[31m
+            [36m>[31m
+              [36m<h2[31m
+                [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+              [36m>[31m
+                [0mBienvenido de vuelta[0m
+              [36m</h2>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#8899cc]"[31m
+              [36m>[31m
+                [0mInicia sesi├│n para ver tu resumen financiero[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-5"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mCorreo electr├│nico[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mautocomplete[31m=[32m"email"[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"tu@email.com"[31m
+                  [33mrequired[31m=[32m""[31m
+                  [33mtype[31m=[32m"email"[31m
+                  [33mvalue[31m=[32m""[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mContrase├▒a[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mautocomplete[31m=[32m"current-password"[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm pr-12"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó"[31m
+                    [33mrequired[31m=[32m""[31m
+                    [33mtype[31m=[32m"password"[31m
+                    [33mvalue[31m=[32m""[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"absolute right-3.5 top-1/2 -translate-y-1/2 text-[#4a5880] hover:text-[#8899cc] transition-colors"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [36m<svg[31m
+                      [33maria-hidden[31m=[32m"true"[31m
+                      [33mclass[31m=[32m"lucide lucide-eye w-4 h-4"[31m
+                      [33mfill[31m=[32m"none"[31m
+                      [33mheight[31m=[32m"24"[31m
+                      [33mstroke[31m=[32m"currentColor"[31m
+                      [33mstroke-linecap[31m=[32m"round"[31m
+                      [33mstroke-linejoin[31m=[32m"round"[31m
+                      [33mstroke-width[31m=[32m"2"[31m
+                      [33mviewBox[31m=[32m"0 0 24 24"[31m
+                      [33mwidth[31m=[32m"24"[31m
+                      [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                    [36m>[31m
+                      [36m<path[31m
+                        [33md[31m=[32m"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"[31m
+                      [36m/>[31m
+                      [36m<circle[31m
+                        [33mcx[31m=[32m"12"[31m
+                        [33mcy[31m=[32m"12"[31m
+                        [33mr[31m=[32m"3"[31m
+                      [36m/>[31m
+                    [36m</svg>[31m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm transition-all hover:from-blue-500 hover:to-violet-500 hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98]"[31m
+                [33mid[31m=[32m"login-submit"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mIniciar sesi├│n[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+              [36m>[31m
+                [0m┬┐No tienes cuenta?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-400 hover:text-blue-300 font-medium transition-colors"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mReg├¡strate gratis[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+[31m   [31m├ù[31m LoginPage[2m > [22mhandles network errors gracefully[39m
+[31m     ÔåÆ Found a label with the text of: Correo electr├│nico, however no form control was found associated to that label. Make sure you're using the "for" attribute or "aria-labelledby" attribute correctly.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen bg-[#060912] flex"[31m
+    [36m>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"hidden lg:flex lg:w-1/2 flex-col justify-between p-12 relative overflow-hidden"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute inset-0 bg-gradient-to-br from-[#0f1629] via-[#0a0f1e] to-[#060912]"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"[31m
+        [36m/>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center shadow-lg shadow-blue-500/25"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white tracking-tight"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10 space-y-6"[31m
+        [36m>[31m
+          [36m<div>[31m
+            [36m<h1[31m
+              [33mclass[31m=[32m"text-4xl font-bold text-white leading-tight mb-4"[31m
+            [36m>[31m
+              [0mTu vida financiera,[0m
+              [36m<br />[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent"[31m
+              [36m>[31m
+                [0mbajo control total.[0m
+              [36m</span>[31m
+            [36m</h1>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-[#8899cc] text-lg leading-relaxed"[31m
+            [36m>[31m
+              [0mRegistra ingresos, controla gastos, construye tu ahorro y gestiona tus ingresos extraordinarios en un solo lugar.[0m
+            [36m</p>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-4"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-emerald-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-trending-up w-5 h-5 text-emerald-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M16 7h6v6"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"m22 7-8.5 8.5-5-5L2 17"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mFlujo de caja en tiempo real[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-blue-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-chart-column w-5 h-5 text-blue-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M3 3v16a2 2 0 0 0 2 2h16"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M18 17V9"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M13 17V5"[31m
+                  [36m/>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M8 17v-3"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mReportes financieros precisos[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center gap-4 group"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"w-10 h-10 rounded-lg bg-violet-400/10 flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-110"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-shield w-5 h-5 text-violet-400"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+              [36m</div>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-[#c4d0ec] font-medium"[31m
+              [36m>[31m
+                [0mDatos privados y seguros[0m
+              [36m</span>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"relative z-10"[31m
+        [36m>[31m
+          [36m<p[31m
+            [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+          [36m>[31m
+            [0mÔÇ£El control financiero no es austeridad ÔÇö es libertad.ÔÇØ[0m
+          [36m</p>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex-1 flex items-center justify-center p-6 lg:p-12"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"w-full max-w-md animate-fade-in"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-center gap-3 mb-8 lg:hidden"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-violet-600 flex items-center justify-center"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-dollar-sign w-5 h-5 text-white"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<line[31m
+                  [33mx1[31m=[32m"12"[31m
+                  [33mx2[31m=[32m"12"[31m
+                  [33my1[31m=[32m"2"[31m
+                  [33my2[31m=[32m"22"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+            [36m</div>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-xl font-bold text-white"[31m
+            [36m>[31m
+              [0mFinanzas[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"glass rounded-2xl p-8 border border-white/8"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mb-8"[31m
+            [36m>[31m
+              [36m<h2[31m
+                [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+              [36m>[31m
+                [0mBienvenido de vuelta[0m
+              [36m</h2>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#8899cc]"[31m
+              [36m>[31m
+                [0mInicia sesi├│n para ver tu resumen financiero[0m
+              [36m</p>[31m
+            [36m</div>[31m
+            [36m<form[31m
+              [33mclass[31m=[32m"space-y-5"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mCorreo electr├│nico[0m
+                [36m</label>[31m
+                [36m<input[31m
+                  [33mautocomplete[31m=[32m"email"[31m
+                  [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm"[31m
+                  [33mid[31m=[32m"email"[31m
+                  [33mplaceholder[31m=[32m"tu@email.com"[31m
+                  [33mrequired[31m=[32m""[31m
+                  [33mtype[31m=[32m"email"[31m
+                  [33mvalue[31m=[32m""[31m
+                [36m/>[31m
+              [36m</div>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"space-y-1.5"[31m
+              [36m>[31m
+                [36m<label[31m
+                  [33mclass[31m=[32m"text-sm font-medium text-[#c4d0ec]"[31m
+                [36m>[31m
+                  [0mContrase├▒a[0m
+                [36m</label>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"relative"[31m
+                [36m>[31m
+                  [36m<input[31m
+                    [33mautocomplete[31m=[32m"current-password"[31m
+                    [33mclass[31m=[32m"w-full px-4 py-3 rounded-xl bg-white/5 border border-white/8 text-white placeholder-[#4a5880] focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all text-sm pr-12"[31m
+                    [33mid[31m=[32m"password"[31m
+                    [33mplaceholder[31m=[32m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó"[31m
+                    [33mrequired[31m=[32m""[31m
+                    [33mtype[31m=[32m"password"[31m
+                    [33mvalue[31m=[32m""[31m
+                  [36m/>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"absolute right-3.5 top-1/2 -translate-y-1/2 text-[#4a5880] hover:text-[#8899cc] transition-colors"[31m
+                    [33mtype[31m=[32m"button"[31m
+                  [36m>[31m
+                    [36m<svg[31m
+                      [33maria-hidden[31m=[32m"true"[31m
+                      [33mclass[31m=[32m"lucide lucide-eye w-4 h-4"[31m
+                      [33mfill[31m=[32m"none"[31m
+                      [33mheight[31m=[32m"24"[31m
+                      [33mstroke[31m=[32m"currentColor"[31m
+                      [33mstroke-linecap[31m=[32m"round"[31m
+                      [33mstroke-linejoin[31m=[32m"round"[31m
+                      [33mstroke-width[31m=[32m"2"[31m
+                      [33mviewBox[31m=[32m"0 0 24 24"[31m
+                      [33mwidth[31m=[32m"24"[31m
+                      [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                    [36m>[31m
+                      [36m<path[31m
+                        [33md[31m=[32m"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"[31m
+                      [36m/>[31m
+                      [36m<circle[31m
+                        [33mcx[31m=[32m"12"[31m
+                        [33mcy[31m=[32m"12"[31m
+                        [33mr[31m=[32m"3"[31m
+                      [36m/>[31m
+                    [36m</svg>[31m
+                  [36m</button>[31m
+                [36m</div>[31m
+              [36m</div>[31m
+              [36m<button[31m
+                [33mclass[31m=[32m"w-full py-3 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold text-sm transition-all hover:from-blue-500 hover:to-violet-500 hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98]"[31m
+                [33mid[31m=[32m"login-submit"[31m
+                [33mtype[31m=[32m"submit"[31m
+              [36m>[31m
+                [0mIniciar sesi├│n[0m
+              [36m</button>[31m
+            [36m</form>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-6 text-center"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-[#4a5880] text-sm"[31m
+              [36m>[31m
+                [0m┬┐No tienes cuenta?[0m
+                [0m [0m
+                [36m<a[31m
+                  [33mclass[31m=[32m"text-blue-400 hover:text-blue-300 font-medium transition-colors"[31m
+                  [33mhref[31m=[32m"/register"[31m
+                [36m>[31m
+                  [0mReg├¡strate gratis[0m
+                [36m</a>[31m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</div>[31m
+[36m</body>[31m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»[1m[7m Failed 
+Tests 5 [27m[22mÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+
+[31m[1m[7m FAIL 
+[27m[22m[39m src/app
+/login/login.test.tsx[
+2m > 
+[22mLoginPage[2m > 
+[22mrenders the login 
+form correctly
+[31m[1mTestingLibrary
+ElementError[22m[39m:
+ Found a label with 
+the text of: Correo 
+electr├│nico, however 
+no form control was 
+found associated to 
+that label. Make sure 
+you're using the "for" 
+attribute or 
+"aria-labelledby" 
+attribute correctly.
+
+Ignored nodes: 
+comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=
+[32m"min-h-screen 
+bg-[#060912] flex"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"hidden lg:flex 
+lg:w-1/2 flex-col 
+justify-between p-12 
+relative 
+overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+inset-0 
+bg-gradient-to-br 
+from-[#0f1629] 
+via-[#0a0f1e] 
+to-[#060912]"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+top-0 left-0 w-96 h-96 
+bg-blue-600/10 
+rounded-full blur-3xl 
+-translate-x-1/2 
+-translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+bottom-0 right-0 w-96 
+h-96 bg-violet-600/10 
+rounded-full blur-3xl 
+translate-x-1/2 
+translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center 
+gap-3"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center 
+shadow-lg shadow-blue-5
+00/25"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold text-white 
+tracking-tight"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative z-10 
+space-y-6"[39m
+        [36m>[39m
+          
+[36m<div>[39m
+            
+[36m<h1[39m
+              [33mclas
+s[39m=[32m"text-4xl 
+font-bold text-white 
+leading-tight 
+mb-4"[39m
+            [36m>[39m
+              [0mTu 
+vida financiera,[0m
+              [36m<br 
+/>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"bg-gradi
+ent-to-r from-blue-400 
+to-violet-400 
+bg-clip-text 
+text-transparent"[39m
+              
+[36m>[39m
+                
+[0mbajo control 
+total.[0m
+              
+[36m</span>[39m
+            
+[36m</h1>[39m
+            
+[36m<p[39m
+              [33mclas
+s[39m=[32m"text-[#889
+9cc] text-lg 
+leading-relaxed"[39m
+            [36m>[39m
+              
+[0mRegistra ingresos, 
+controla gastos, 
+construye tu ahorro y 
+gestiona tus ingresos 
+extraordinarios en un 
+solo lugar.[0m
+            
+[36m</p>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"space-y-4"[
+39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-emerald-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-trending-up 
+w-5 h-5 
+text-emerald-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M16 
+7h6v6"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"m22 
+7-8.5 8.5-5-5L2 
+17"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mFlujo de caja en 
+tiempo real[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-blue-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-chart-column 
+w-5 h-5 
+text-blue-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M3 
+3v16a2 2 0 0 0 2 
+2h16"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M18 
+17V9"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M13 
+17V5"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M8 
+17v-3"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mReportes 
+financieros 
+precisos[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-violet-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-shield w-5 h-5 
+text-violet-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M20 
+13c0 5-3.5 7.5-7.66 
+8.95a1 1 0 0 
+1-.67-.01C7.5 20.5 4 
+18 4 13V6a1 1 0 0 1 
+1-1c2 0 4.5-1.2 
+6.24-2.72a1.17 1.17 0 
+0 1 1.52 0C14.51 3.81 
+17 5 19 5a1 1 0 0 1 1 
+1z"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mDatos privados y 
+seguros[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass
+[39m=[32m"text-[#4a588
+0] text-sm"[39m
+          [36m>[39m
+            [0mÔÇ£El 
+control financiero no 
+es austeridad ÔÇö es 
+libertad.ÔÇØ[0m
+          
+[36m</p>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"flex-1 flex 
+items-center 
+justify-center p-6 
+lg:p-12"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"w-full 
+max-w-md 
+animate-fade-in"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center gap-3 
+mb-8 lg:hidden"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold 
+text-white"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"glass 
+rounded-2xl p-8 border 
+border-white/8"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mb-8"[39m
+            [36m>[39m
+              
+[36m<h2[39m
+                [33mcl
+ass[39m=[32m"text-2xl
+ font-bold text-white 
+mb-2"[39m
+              
+[36m>[39m
+                
+[0mBienvenido de 
+vuelta[0m
+              
+[36m</h2>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#8
+899cc]"[39m
+              
+[36m>[39m
+                
+[0mInicia sesi├│n 
+para ver tu resumen 
+financiero[0m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+            
+[36m<form[39m
+              [33mclas
+s[39m=[32m"space-y-5"
+[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mCorreo 
+electr├│nico[0m
+                
+[36m</label>[39m
+                
+[36m<input[39m
+                  [33m
+autocomplete[39m=[32m
+"email"[39m
+                  [33m
+class[39m=[32m"w-full
+ px-4 py-3 rounded-xl 
+bg-white/5 border 
+border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm"[39m
+                  [33m
+id[39m=[32m"email"[3
+9m
+                  [33m
+placeholder[39m=[32m"
+tu@email.com"[39m
+                  [33m
+required[39m=[32m""[
+39m
+                  [33m
+type[39m=[32m"email"
+[39m
+                  [33m
+value[39m=[32m""[39m
+                
+[36m/>[39m
+              
+[36m</div>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mContrase├▒a[0m
+                
+[36m</label>[39m
+                
+[36m<div[39m
+                  [33m
+class[39m=[32m"relati
+ve"[39m
+                
+[36m>[39m
+                  
+[36m<input[39m
+                    [3
+3mautocomplete[39m=[3
+2m"current-password"[3
+9m
+                    [3
+3mclass[39m=[32m"w-fu
+ll px-4 py-3 
+rounded-xl bg-white/5 
+border border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm pr-12"[39m
+                    [3
+3mid[39m=[32m"passwor
+d"[39m
+                    [3
+3mplaceholder[39m=[32
+m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó
+ÔÇó"[39m
+                    [3
+3mrequired[39m=[32m""
+[39m
+                    [3
+3mtype[39m=[32m"passw
+ord"[39m
+                    [3
+3mvalue[39m=[32m""[3
+9m
+                  
+[36m/>[39m
+                  
+[36m<button[39m
+                    [3
+3mclass[39m=[32m"abso
+lute right-3.5 top-1/2 
+-translate-y-1/2 
+text-[#4a5880] 
+hover:text-[#8899cc] 
+transition-colors"[39m
+                    [3
+3mtype[39m=[32m"butto
+n"[39m
+                  
+[36m>[39m
+                    
+[36m<svg[39m
+                      
+[33maria-hidden[39m=[
+32m"true"[39m
+                      
+[33mclass[39m=[32m"lu
+cide lucide-eye w-4 
+h-4"[39m
+                      
+[33mfill[39m=[32m"non
+e"[39m
+                      
+[33mheight[39m=[32m"2
+4"[39m
+                      
+[33mstroke[39m=[32m"c
+urrentColor"[39m
+                      
+[33mstroke-linecap[39m
+=[32m"round"[39m
+                      
+[33mstroke-linejoin[39
+m=[32m"round"[39m
+                      
+[33mstroke-width[39m=
+[32m"2"[39m
+                      
+[33mviewBox[39m=[32m"
+0 0 24 24"[39m
+                      
+[33mwidth[39m=[32m"24
+"[39m
+                      
+[33mxmlns[39m=[32m"ht
+tp://www.w3.org/2000/sv
+g"[39m
+                    
+[36m>[39m
+                      
+[36m<path[39m
+                       
+ [33md[39m=[32m"M2.0
+62 12.348a1 1 0 0 1 
+0-.696 10.75 10.75 0 0 
+1 19.876 0 1 1 0 0 1 0 
+.696 10.75 10.75 0 0 
+1-19.876 0"[39m
+                      
+[36m/>[39m
+                      
+[36m<circle[39m
+                       
+ [33mcx[39m=[32m"12"
+[39m
+                       
+ [33mcy[39m=[32m"12"
+[39m
+                       
+ [33mr[39m=[32m"3"[
+39m
+                      
+[36m/>[39m
+                    
+[36m</svg>[39m
+                  
+[36m</button>[39m
+                
+[36m</div>[39m
+              
+[36m</div>[39m
+              
+[36m<button[39m
+                [33mcl
+ass[39m=[32m"w-full 
+py-3 px-6 rounded-xl 
+bg-gradient-to-r 
+from-blue-600 
+to-violet-600 
+text-white 
+font-semibold text-sm 
+transition-all 
+hover:from-blue-500 
+hover:to-violet-500 
+hover:shadow-lg hover:s
+hadow-blue-500/25 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+disabled:opacity-50 dis
+abled:cursor-not-allowe
+d active:scale-[0.98]"
+[39m
+                [33mid
+[39m=[32m"login-submi
+t"[39m
+                [33mty
+pe[39m=[32m"submit"[
+39m
+              
+[36m>[39m
+                
+[0mIniciar sesi├│n[0m
+              
+[36m</button>[39m
+            
+[36m</form>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mt-6 
+text-center"[39m
+            [36m>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#4
+a5880] text-sm"[39m
+              
+[36m>[39m
+                
+[0m┬┐No tienes 
+cuenta?[0m
+                [0m 
+[0m
+                
+[36m<a[39m
+                  [33m
+class[39m=[32m"text-b
+lue-400 
+hover:text-blue-300 
+font-medium 
+transition-colors"[39m
+                  [33m
+href[39m=[32m"/regist
+er"[39m
+                
+[36m>[39m
+                  
+[0mReg├¡strate 
+gratis[0m
+                
+[36m</a>[39m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2mÔØ»[22m 
+Object.getElementError 
+node_modules/@testing-l
+ibrary/dom/dist/config.
+js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m 
+getAllByLabelText node_
+modules/@testing-librar
+y/dom/dist/queries/labe
+l-text.js:[2m108:40[2
+2m[39m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m52:17[22m[3
+9m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m95:19[22m[3
+9m
+[36m [2mÔØ»[22m src/
+app/login/login.test.ts
+x:[2m32:23[22m[39m
+    [90m 30| [39m
+    [90m 31| [39m    
+    [34mexpect[39m(sc
+reen[33m.[39m[34mget
+ByText[39m([32m'Bienv
+enido de vuelta'[39m))
+[33m.[39m[34mtoBeInT
+heDocu[39mÔÇª
+    [90m 32| [39m    
+    [34mexpect[39m(sc
+reen[33m.[39m[34mget
+ByLabelText[39m([32m'
+Correo electr├│nico'[3
+9m))[33m.[39m[34mtoB
+eInTheD[39mÔÇª
+    [90m   | [39m    
+                  
+[31m^[39m
+    [90m 33| [39m    
+    [34mexpect[39m(sc
+reen[33m.[39m[34mget
+ByLabelText[39m([32m'
+Contrase├▒a'[39m))[33
+m.[39m[34mtoBeInTheDo
+cument[39m(ÔÇª
+    [90m 34| [39m    
+    [34mexpect[39m(sc
+reen[33m.[39m[34mget
+ByRole[39m([32m'butto
+n'[39m[33m,[39m { 
+name[33m:[39m 
+[36m/iniciar 
+sesi├│n/i[39m })ÔÇª
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1/5]ÔÄ»[2
+2m[39m
+
+[31m[1m[7m FAIL 
+[27m[22m[39m src/app
+/login/login.test.tsx[
+2m > 
+[22mLoginPage[2m > 
+[22mallows users to 
+type in the email and 
+password fields
+[31m[1mTestingLibrary
+ElementError[22m[39m:
+ Found a label with 
+the text of: Correo 
+electr├│nico, however 
+no form control was 
+found associated to 
+that label. Make sure 
+you're using the "for" 
+attribute or 
+"aria-labelledby" 
+attribute correctly.
+
+Ignored nodes: 
+comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=
+[32m"min-h-screen 
+bg-[#060912] flex"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"hidden lg:flex 
+lg:w-1/2 flex-col 
+justify-between p-12 
+relative 
+overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+inset-0 
+bg-gradient-to-br 
+from-[#0f1629] 
+via-[#0a0f1e] 
+to-[#060912]"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+top-0 left-0 w-96 h-96 
+bg-blue-600/10 
+rounded-full blur-3xl 
+-translate-x-1/2 
+-translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+bottom-0 right-0 w-96 
+h-96 bg-violet-600/10 
+rounded-full blur-3xl 
+translate-x-1/2 
+translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center 
+gap-3"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center 
+shadow-lg shadow-blue-5
+00/25"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold text-white 
+tracking-tight"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative z-10 
+space-y-6"[39m
+        [36m>[39m
+          
+[36m<div>[39m
+            
+[36m<h1[39m
+              [33mclas
+s[39m=[32m"text-4xl 
+font-bold text-white 
+leading-tight 
+mb-4"[39m
+            [36m>[39m
+              [0mTu 
+vida financiera,[0m
+              [36m<br 
+/>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"bg-gradi
+ent-to-r from-blue-400 
+to-violet-400 
+bg-clip-text 
+text-transparent"[39m
+              
+[36m>[39m
+                
+[0mbajo control 
+total.[0m
+              
+[36m</span>[39m
+            
+[36m</h1>[39m
+            
+[36m<p[39m
+              [33mclas
+s[39m=[32m"text-[#889
+9cc] text-lg 
+leading-relaxed"[39m
+            [36m>[39m
+              
+[0mRegistra ingresos, 
+controla gastos, 
+construye tu ahorro y 
+gestiona tus ingresos 
+extraordinarios en un 
+solo lugar.[0m
+            
+[36m</p>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"space-y-4"[
+39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-emerald-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-trending-up 
+w-5 h-5 
+text-emerald-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M16 
+7h6v6"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"m22 
+7-8.5 8.5-5-5L2 
+17"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mFlujo de caja en 
+tiempo real[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-blue-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-chart-column 
+w-5 h-5 
+text-blue-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M3 
+3v16a2 2 0 0 0 2 
+2h16"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M18 
+17V9"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M13 
+17V5"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M8 
+17v-3"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mReportes 
+financieros 
+precisos[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-violet-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-shield w-5 h-5 
+text-violet-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M20 
+13c0 5-3.5 7.5-7.66 
+8.95a1 1 0 0 
+1-.67-.01C7.5 20.5 4 
+18 4 13V6a1 1 0 0 1 
+1-1c2 0 4.5-1.2 
+6.24-2.72a1.17 1.17 0 
+0 1 1.52 0C14.51 3.81 
+17 5 19 5a1 1 0 0 1 1 
+1z"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mDatos privados y 
+seguros[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass
+[39m=[32m"text-[#4a588
+0] text-sm"[39m
+          [36m>[39m
+            [0mÔÇ£El 
+control financiero no 
+es austeridad ÔÇö es 
+libertad.ÔÇØ[0m
+          
+[36m</p>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"flex-1 flex 
+items-center 
+justify-center p-6 
+lg:p-12"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"w-full 
+max-w-md 
+animate-fade-in"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center gap-3 
+mb-8 lg:hidden"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold 
+text-white"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"glass 
+rounded-2xl p-8 border 
+border-white/8"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mb-8"[39m
+            [36m>[39m
+              
+[36m<h2[39m
+                [33mcl
+ass[39m=[32m"text-2xl
+ font-bold text-white 
+mb-2"[39m
+              
+[36m>[39m
+                
+[0mBienvenido de 
+vuelta[0m
+              
+[36m</h2>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#8
+899cc]"[39m
+              
+[36m>[39m
+                
+[0mInicia sesi├│n 
+para ver tu resumen 
+financiero[0m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+            
+[36m<form[39m
+              [33mclas
+s[39m=[32m"space-y-5"
+[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mCorreo 
+electr├│nico[0m
+                
+[36m</label>[39m
+                
+[36m<input[39m
+                  [33m
+autocomplete[39m=[32m
+"email"[39m
+                  [33m
+class[39m=[32m"w-full
+ px-4 py-3 rounded-xl 
+bg-white/5 border 
+border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm"[39m
+                  [33m
+id[39m=[32m"email"[3
+9m
+                  [33m
+placeholder[39m=[32m"
+tu@email.com"[39m
+                  [33m
+required[39m=[32m""[
+39m
+                  [33m
+type[39m=[32m"email"
+[39m
+                  [33m
+value[39m=[32m""[39m
+                
+[36m/>[39m
+              
+[36m</div>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mContrase├▒a[0m
+                
+[36m</label>[39m
+                
+[36m<div[39m
+                  [33m
+class[39m=[32m"relati
+ve"[39m
+                
+[36m>[39m
+                  
+[36m<input[39m
+                    [3
+3mautocomplete[39m=[3
+2m"current-password"[3
+9m
+                    [3
+3mclass[39m=[32m"w-fu
+ll px-4 py-3 
+rounded-xl bg-white/5 
+border border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm pr-12"[39m
+                    [3
+3mid[39m=[32m"passwor
+d"[39m
+                    [3
+3mplaceholder[39m=[32
+m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó
+ÔÇó"[39m
+                    [3
+3mrequired[39m=[32m""
+[39m
+                    [3
+3mtype[39m=[32m"passw
+ord"[39m
+                    [3
+3mvalue[39m=[32m""[3
+9m
+                  
+[36m/>[39m
+                  
+[36m<button[39m
+                    [3
+3mclass[39m=[32m"abso
+lute right-3.5 top-1/2 
+-translate-y-1/2 
+text-[#4a5880] 
+hover:text-[#8899cc] 
+transition-colors"[39m
+                    [3
+3mtype[39m=[32m"butto
+n"[39m
+                  
+[36m>[39m
+                    
+[36m<svg[39m
+                      
+[33maria-hidden[39m=[
+32m"true"[39m
+                      
+[33mclass[39m=[32m"lu
+cide lucide-eye w-4 
+h-4"[39m
+                      
+[33mfill[39m=[32m"non
+e"[39m
+                      
+[33mheight[39m=[32m"2
+4"[39m
+                      
+[33mstroke[39m=[32m"c
+urrentColor"[39m
+                      
+[33mstroke-linecap[39m
+=[32m"round"[39m
+                      
+[33mstroke-linejoin[39
+m=[32m"round"[39m
+                      
+[33mstroke-width[39m=
+[32m"2"[39m
+                      
+[33mviewBox[39m=[32m"
+0 0 24 24"[39m
+                      
+[33mwidth[39m=[32m"24
+"[39m
+                      
+[33mxmlns[39m=[32m"ht
+tp://www.w3.org/2000/sv
+g"[39m
+                    
+[36m>[39m
+                      
+[36m<path[39m
+                       
+ [33md[39m=[32m"M2.0
+62 12.348a1 1 0 0 1 
+0-.696 10.75 10.75 0 0 
+1 19.876 0 1 1 0 0 1 0 
+.696 10.75 10.75 0 0 
+1-19.876 0"[39m
+                      
+[36m/>[39m
+                      
+[36m<circle[39m
+                       
+ [33mcx[39m=[32m"12"
+[39m
+                       
+ [33mcy[39m=[32m"12"
+[39m
+                       
+ [33mr[39m=[32m"3"[
+39m
+                      
+[36m/>[39m
+                    
+[36m</svg>[39m
+                  
+[36m</button>[39m
+                
+[36m</div>[39m
+              
+[36m</div>[39m
+              
+[36m<button[39m
+                [33mcl
+ass[39m=[32m"w-full 
+py-3 px-6 rounded-xl 
+bg-gradient-to-r 
+from-blue-600 
+to-violet-600 
+text-white 
+font-semibold text-sm 
+transition-all 
+hover:from-blue-500 
+hover:to-violet-500 
+hover:shadow-lg hover:s
+hadow-blue-500/25 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+disabled:opacity-50 dis
+abled:cursor-not-allowe
+d active:scale-[0.98]"
+[39m
+                [33mid
+[39m=[32m"login-submi
+t"[39m
+                [33mty
+pe[39m=[32m"submit"[
+39m
+              
+[36m>[39m
+                
+[0mIniciar sesi├│n[0m
+              
+[36m</button>[39m
+            
+[36m</form>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mt-6 
+text-center"[39m
+            [36m>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#4
+a5880] text-sm"[39m
+              
+[36m>[39m
+                
+[0m┬┐No tienes 
+cuenta?[0m
+                [0m 
+[0m
+                
+[36m<a[39m
+                  [33m
+class[39m=[32m"text-b
+lue-400 
+hover:text-blue-300 
+font-medium 
+transition-colors"[39m
+                  [33m
+href[39m=[32m"/regist
+er"[39m
+                
+[36m>[39m
+                  
+[0mReg├¡strate 
+gratis[0m
+                
+[36m</a>[39m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2mÔØ»[22m 
+Object.getElementError 
+node_modules/@testing-l
+ibrary/dom/dist/config.
+js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m 
+getAllByLabelText node_
+modules/@testing-librar
+y/dom/dist/queries/labe
+l-text.js:[2m108:40[2
+2m[39m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m52:17[22m[3
+9m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m95:19[22m[3
+9m
+[36m [2mÔØ»[22m src/
+app/login/login.test.ts
+x:[2m40:35[22m[39m
+    [90m 38| [39m    
+    [34mrender[39m([
+33m<[39m[33mLoginPage
+[39m [33m/[39m[33m>
+[39m)[33m;[39m
+    [90m 39| [39m
+    [90m 40| [39m    
+    [35mconst[39m 
+emailInput [33m=[39m 
+screen[33m.[39m[34mg
+etByLabelText[39m([32
+m'Correo electr├│nico'
+[39m)[33m;[39m
+    [90m   | [39m    
+                       
+       [31m^[39m
+    [90m 41| [39m    
+    [35mconst[39m 
+passwordInput 
+[33m=[39m screen[33m
+.[39m[34mgetByLabelTe
+xt[39m([32m'Contrase├
+▒a'[39m)[33m;[39m
+    [90m 42| [39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»[2/5]ÔÄ»[2
+2m[39m
+
+[31m[1m[7m FAIL 
+[27m[22m[39m src/app
+/login/login.test.tsx[
+2m > 
+[22mLoginPage[2m > 
+[22mhandles 
+successful login and 
+redirects to dashboard
+[31m[1mTestingLibrary
+ElementError[22m[39m:
+ Found a label with 
+the text of: Correo 
+electr├│nico, however 
+no form control was 
+found associated to 
+that label. Make sure 
+you're using the "for" 
+attribute or 
+"aria-labelledby" 
+attribute correctly.
+
+Ignored nodes: 
+comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=
+[32m"min-h-screen 
+bg-[#060912] flex"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"hidden lg:flex 
+lg:w-1/2 flex-col 
+justify-between p-12 
+relative 
+overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+inset-0 
+bg-gradient-to-br 
+from-[#0f1629] 
+via-[#0a0f1e] 
+to-[#060912]"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+top-0 left-0 w-96 h-96 
+bg-blue-600/10 
+rounded-full blur-3xl 
+-translate-x-1/2 
+-translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+bottom-0 right-0 w-96 
+h-96 bg-violet-600/10 
+rounded-full blur-3xl 
+translate-x-1/2 
+translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center 
+gap-3"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center 
+shadow-lg shadow-blue-5
+00/25"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold text-white 
+tracking-tight"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative z-10 
+space-y-6"[39m
+        [36m>[39m
+          
+[36m<div>[39m
+            
+[36m<h1[39m
+              [33mclas
+s[39m=[32m"text-4xl 
+font-bold text-white 
+leading-tight 
+mb-4"[39m
+            [36m>[39m
+              [0mTu 
+vida financiera,[0m
+              [36m<br 
+/>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"bg-gradi
+ent-to-r from-blue-400 
+to-violet-400 
+bg-clip-text 
+text-transparent"[39m
+              
+[36m>[39m
+                
+[0mbajo control 
+total.[0m
+              
+[36m</span>[39m
+            
+[36m</h1>[39m
+            
+[36m<p[39m
+              [33mclas
+s[39m=[32m"text-[#889
+9cc] text-lg 
+leading-relaxed"[39m
+            [36m>[39m
+              
+[0mRegistra ingresos, 
+controla gastos, 
+construye tu ahorro y 
+gestiona tus ingresos 
+extraordinarios en un 
+solo lugar.[0m
+            
+[36m</p>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"space-y-4"[
+39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-emerald-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-trending-up 
+w-5 h-5 
+text-emerald-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M16 
+7h6v6"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"m22 
+7-8.5 8.5-5-5L2 
+17"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mFlujo de caja en 
+tiempo real[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-blue-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-chart-column 
+w-5 h-5 
+text-blue-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M3 
+3v16a2 2 0 0 0 2 
+2h16"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M18 
+17V9"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M13 
+17V5"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M8 
+17v-3"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mReportes 
+financieros 
+precisos[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-violet-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-shield w-5 h-5 
+text-violet-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M20 
+13c0 5-3.5 7.5-7.66 
+8.95a1 1 0 0 
+1-.67-.01C7.5 20.5 4 
+18 4 13V6a1 1 0 0 1 
+1-1c2 0 4.5-1.2 
+6.24-2.72a1.17 1.17 0 
+0 1 1.52 0C14.51 3.81 
+17 5 19 5a1 1 0 0 1 1 
+1z"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mDatos privados y 
+seguros[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass
+[39m=[32m"text-[#4a588
+0] text-sm"[39m
+          [36m>[39m
+            [0mÔÇ£El 
+control financiero no 
+es austeridad ÔÇö es 
+libertad.ÔÇØ[0m
+          
+[36m</p>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"flex-1 flex 
+items-center 
+justify-center p-6 
+lg:p-12"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"w-full 
+max-w-md 
+animate-fade-in"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center gap-3 
+mb-8 lg:hidden"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold 
+text-white"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"glass 
+rounded-2xl p-8 border 
+border-white/8"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mb-8"[39m
+            [36m>[39m
+              
+[36m<h2[39m
+                [33mcl
+ass[39m=[32m"text-2xl
+ font-bold text-white 
+mb-2"[39m
+              
+[36m>[39m
+                
+[0mBienvenido de 
+vuelta[0m
+              
+[36m</h2>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#8
+899cc]"[39m
+              
+[36m>[39m
+                
+[0mInicia sesi├│n 
+para ver tu resumen 
+financiero[0m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+            
+[36m<form[39m
+              [33mclas
+s[39m=[32m"space-y-5"
+[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mCorreo 
+electr├│nico[0m
+                
+[36m</label>[39m
+                
+[36m<input[39m
+                  [33m
+autocomplete[39m=[32m
+"email"[39m
+                  [33m
+class[39m=[32m"w-full
+ px-4 py-3 rounded-xl 
+bg-white/5 border 
+border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm"[39m
+                  [33m
+id[39m=[32m"email"[3
+9m
+                  [33m
+placeholder[39m=[32m"
+tu@email.com"[39m
+                  [33m
+required[39m=[32m""[
+39m
+                  [33m
+type[39m=[32m"email"
+[39m
+                  [33m
+value[39m=[32m""[39m
+                
+[36m/>[39m
+              
+[36m</div>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mContrase├▒a[0m
+                
+[36m</label>[39m
+                
+[36m<div[39m
+                  [33m
+class[39m=[32m"relati
+ve"[39m
+                
+[36m>[39m
+                  
+[36m<input[39m
+                    [3
+3mautocomplete[39m=[3
+2m"current-password"[3
+9m
+                    [3
+3mclass[39m=[32m"w-fu
+ll px-4 py-3 
+rounded-xl bg-white/5 
+border border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm pr-12"[39m
+                    [3
+3mid[39m=[32m"passwor
+d"[39m
+                    [3
+3mplaceholder[39m=[32
+m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó
+ÔÇó"[39m
+                    [3
+3mrequired[39m=[32m""
+[39m
+                    [3
+3mtype[39m=[32m"passw
+ord"[39m
+                    [3
+3mvalue[39m=[32m""[3
+9m
+                  
+[36m/>[39m
+                  
+[36m<button[39m
+                    [3
+3mclass[39m=[32m"abso
+lute right-3.5 top-1/2 
+-translate-y-1/2 
+text-[#4a5880] 
+hover:text-[#8899cc] 
+transition-colors"[39m
+                    [3
+3mtype[39m=[32m"butto
+n"[39m
+                  
+[36m>[39m
+                    
+[36m<svg[39m
+                      
+[33maria-hidden[39m=[
+32m"true"[39m
+                      
+[33mclass[39m=[32m"lu
+cide lucide-eye w-4 
+h-4"[39m
+                      
+[33mfill[39m=[32m"non
+e"[39m
+                      
+[33mheight[39m=[32m"2
+4"[39m
+                      
+[33mstroke[39m=[32m"c
+urrentColor"[39m
+                      
+[33mstroke-linecap[39m
+=[32m"round"[39m
+                      
+[33mstroke-linejoin[39
+m=[32m"round"[39m
+                      
+[33mstroke-width[39m=
+[32m"2"[39m
+                      
+[33mviewBox[39m=[32m"
+0 0 24 24"[39m
+                      
+[33mwidth[39m=[32m"24
+"[39m
+                      
+[33mxmlns[39m=[32m"ht
+tp://www.w3.org/2000/sv
+g"[39m
+                    
+[36m>[39m
+                      
+[36m<path[39m
+                       
+ [33md[39m=[32m"M2.0
+62 12.348a1 1 0 0 1 
+0-.696 10.75 10.75 0 0 
+1 19.876 0 1 1 0 0 1 0 
+.696 10.75 10.75 0 0 
+1-19.876 0"[39m
+                      
+[36m/>[39m
+                      
+[36m<circle[39m
+                       
+ [33mcx[39m=[32m"12"
+[39m
+                       
+ [33mcy[39m=[32m"12"
+[39m
+                       
+ [33mr[39m=[32m"3"[
+39m
+                      
+[36m/>[39m
+                    
+[36m</svg>[39m
+                  
+[36m</button>[39m
+                
+[36m</div>[39m
+              
+[36m</div>[39m
+              
+[36m<button[39m
+                [33mcl
+ass[39m=[32m"w-full 
+py-3 px-6 rounded-xl 
+bg-gradient-to-r 
+from-blue-600 
+to-violet-600 
+text-white 
+font-semibold text-sm 
+transition-all 
+hover:from-blue-500 
+hover:to-violet-500 
+hover:shadow-lg hover:s
+hadow-blue-500/25 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+disabled:opacity-50 dis
+abled:cursor-not-allowe
+d active:scale-[0.98]"
+[39m
+                [33mid
+[39m=[32m"login-submi
+t"[39m
+                [33mty
+pe[39m=[32m"submit"[
+39m
+              
+[36m>[39m
+                
+[0mIniciar sesi├│n[0m
+              
+[36m</button>[39m
+            
+[36m</form>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mt-6 
+text-center"[39m
+            [36m>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#4
+a5880] text-sm"[39m
+              
+[36m>[39m
+                
+[0m┬┐No tienes 
+cuenta?[0m
+                [0m 
+[0m
+                
+[36m<a[39m
+                  [33m
+class[39m=[32m"text-b
+lue-400 
+hover:text-blue-300 
+font-medium 
+transition-colors"[39m
+                  [33m
+href[39m=[32m"/regist
+er"[39m
+                
+[36m>[39m
+                  
+[0mReg├¡strate 
+gratis[0m
+                
+[36m</a>[39m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2mÔØ»[22m 
+Object.getElementError 
+node_modules/@testing-l
+ibrary/dom/dist/config.
+js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m 
+getAllByLabelText node_
+modules/@testing-librar
+y/dom/dist/queries/labe
+l-text.js:[2m108:40[2
+2m[39m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m52:17[22m[3
+9m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m95:19[22m[3
+9m
+[36m [2mÔØ»[22m src/
+app/login/login.test.ts
+x:[2m55:33[22m[39m
+    [90m 53| [39m    
+    [34mrender[39m([
+33m<[39m[33mLoginPage
+[39m [33m/[39m[33m>
+[39m)[33m;[39m
+    [90m 54| [39m
+    [90m 55| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Cor
+reo electr├│nico'[39m)
+[33m,[39m ÔÇª
+    [90m   | [39m    
+                       
+     [31m^[39m
+    [90m 56| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Con
+trase├▒a'[39m)[33m,[
+39m { targetÔÇª
+    [90m 57| [39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»[3/5]ÔÄ»[2
+2m[39m
+
+[31m[1m[7m FAIL 
+[27m[22m[39m src/app
+/login/login.test.tsx[
+2m > 
+[22mLoginPage[2m > 
+[22mdisplays an error 
+message when login 
+fails
+[31m[1mTestingLibrary
+ElementError[22m[39m:
+ Found a label with 
+the text of: Correo 
+electr├│nico, however 
+no form control was 
+found associated to 
+that label. Make sure 
+you're using the "for" 
+attribute or 
+"aria-labelledby" 
+attribute correctly.
+
+Ignored nodes: 
+comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=
+[32m"min-h-screen 
+bg-[#060912] flex"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"hidden lg:flex 
+lg:w-1/2 flex-col 
+justify-between p-12 
+relative 
+overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+inset-0 
+bg-gradient-to-br 
+from-[#0f1629] 
+via-[#0a0f1e] 
+to-[#060912]"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+top-0 left-0 w-96 h-96 
+bg-blue-600/10 
+rounded-full blur-3xl 
+-translate-x-1/2 
+-translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+bottom-0 right-0 w-96 
+h-96 bg-violet-600/10 
+rounded-full blur-3xl 
+translate-x-1/2 
+translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center 
+gap-3"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center 
+shadow-lg shadow-blue-5
+00/25"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold text-white 
+tracking-tight"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative z-10 
+space-y-6"[39m
+        [36m>[39m
+          
+[36m<div>[39m
+            
+[36m<h1[39m
+              [33mclas
+s[39m=[32m"text-4xl 
+font-bold text-white 
+leading-tight 
+mb-4"[39m
+            [36m>[39m
+              [0mTu 
+vida financiera,[0m
+              [36m<br 
+/>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"bg-gradi
+ent-to-r from-blue-400 
+to-violet-400 
+bg-clip-text 
+text-transparent"[39m
+              
+[36m>[39m
+                
+[0mbajo control 
+total.[0m
+              
+[36m</span>[39m
+            
+[36m</h1>[39m
+            
+[36m<p[39m
+              [33mclas
+s[39m=[32m"text-[#889
+9cc] text-lg 
+leading-relaxed"[39m
+            [36m>[39m
+              
+[0mRegistra ingresos, 
+controla gastos, 
+construye tu ahorro y 
+gestiona tus ingresos 
+extraordinarios en un 
+solo lugar.[0m
+            
+[36m</p>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"space-y-4"[
+39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-emerald-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-trending-up 
+w-5 h-5 
+text-emerald-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M16 
+7h6v6"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"m22 
+7-8.5 8.5-5-5L2 
+17"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mFlujo de caja en 
+tiempo real[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-blue-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-chart-column 
+w-5 h-5 
+text-blue-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M3 
+3v16a2 2 0 0 0 2 
+2h16"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M18 
+17V9"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M13 
+17V5"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M8 
+17v-3"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mReportes 
+financieros 
+precisos[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-violet-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-shield w-5 h-5 
+text-violet-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M20 
+13c0 5-3.5 7.5-7.66 
+8.95a1 1 0 0 
+1-.67-.01C7.5 20.5 4 
+18 4 13V6a1 1 0 0 1 
+1-1c2 0 4.5-1.2 
+6.24-2.72a1.17 1.17 0 
+0 1 1.52 0C14.51 3.81 
+17 5 19 5a1 1 0 0 1 1 
+1z"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mDatos privados y 
+seguros[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass
+[39m=[32m"text-[#4a588
+0] text-sm"[39m
+          [36m>[39m
+            [0mÔÇ£El 
+control financiero no 
+es austeridad ÔÇö es 
+libertad.ÔÇØ[0m
+          
+[36m</p>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"flex-1 flex 
+items-center 
+justify-center p-6 
+lg:p-12"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"w-full 
+max-w-md 
+animate-fade-in"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center gap-3 
+mb-8 lg:hidden"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold 
+text-white"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"glass 
+rounded-2xl p-8 border 
+border-white/8"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mb-8"[39m
+            [36m>[39m
+              
+[36m<h2[39m
+                [33mcl
+ass[39m=[32m"text-2xl
+ font-bold text-white 
+mb-2"[39m
+              
+[36m>[39m
+                
+[0mBienvenido de 
+vuelta[0m
+              
+[36m</h2>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#8
+899cc]"[39m
+              
+[36m>[39m
+                
+[0mInicia sesi├│n 
+para ver tu resumen 
+financiero[0m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+            
+[36m<form[39m
+              [33mclas
+s[39m=[32m"space-y-5"
+[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mCorreo 
+electr├│nico[0m
+                
+[36m</label>[39m
+                
+[36m<input[39m
+                  [33m
+autocomplete[39m=[32m
+"email"[39m
+                  [33m
+class[39m=[32m"w-full
+ px-4 py-3 rounded-xl 
+bg-white/5 border 
+border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm"[39m
+                  [33m
+id[39m=[32m"email"[3
+9m
+                  [33m
+placeholder[39m=[32m"
+tu@email.com"[39m
+                  [33m
+required[39m=[32m""[
+39m
+                  [33m
+type[39m=[32m"email"
+[39m
+                  [33m
+value[39m=[32m""[39m
+                
+[36m/>[39m
+              
+[36m</div>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mContrase├▒a[0m
+                
+[36m</label>[39m
+                
+[36m<div[39m
+                  [33m
+class[39m=[32m"relati
+ve"[39m
+                
+[36m>[39m
+                  
+[36m<input[39m
+                    [3
+3mautocomplete[39m=[3
+2m"current-password"[3
+9m
+                    [3
+3mclass[39m=[32m"w-fu
+ll px-4 py-3 
+rounded-xl bg-white/5 
+border border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm pr-12"[39m
+                    [3
+3mid[39m=[32m"passwor
+d"[39m
+                    [3
+3mplaceholder[39m=[32
+m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó
+ÔÇó"[39m
+                    [3
+3mrequired[39m=[32m""
+[39m
+                    [3
+3mtype[39m=[32m"passw
+ord"[39m
+                    [3
+3mvalue[39m=[32m""[3
+9m
+                  
+[36m/>[39m
+                  
+[36m<button[39m
+                    [3
+3mclass[39m=[32m"abso
+lute right-3.5 top-1/2 
+-translate-y-1/2 
+text-[#4a5880] 
+hover:text-[#8899cc] 
+transition-colors"[39m
+                    [3
+3mtype[39m=[32m"butto
+n"[39m
+                  
+[36m>[39m
+                    
+[36m<svg[39m
+                      
+[33maria-hidden[39m=[
+32m"true"[39m
+                      
+[33mclass[39m=[32m"lu
+cide lucide-eye w-4 
+h-4"[39m
+                      
+[33mfill[39m=[32m"non
+e"[39m
+                      
+[33mheight[39m=[32m"2
+4"[39m
+                      
+[33mstroke[39m=[32m"c
+urrentColor"[39m
+                      
+[33mstroke-linecap[39m
+=[32m"round"[39m
+                      
+[33mstroke-linejoin[39
+m=[32m"round"[39m
+                      
+[33mstroke-width[39m=
+[32m"2"[39m
+                      
+[33mviewBox[39m=[32m"
+0 0 24 24"[39m
+                      
+[33mwidth[39m=[32m"24
+"[39m
+                      
+[33mxmlns[39m=[32m"ht
+tp://www.w3.org/2000/sv
+g"[39m
+                    
+[36m>[39m
+                      
+[36m<path[39m
+                       
+ [33md[39m=[32m"M2.0
+62 12.348a1 1 0 0 1 
+0-.696 10.75 10.75 0 0 
+1 19.876 0 1 1 0 0 1 0 
+.696 10.75 10.75 0 0 
+1-19.876 0"[39m
+                      
+[36m/>[39m
+                      
+[36m<circle[39m
+                       
+ [33mcx[39m=[32m"12"
+[39m
+                       
+ [33mcy[39m=[32m"12"
+[39m
+                       
+ [33mr[39m=[32m"3"[
+39m
+                      
+[36m/>[39m
+                    
+[36m</svg>[39m
+                  
+[36m</button>[39m
+                
+[36m</div>[39m
+              
+[36m</div>[39m
+              
+[36m<button[39m
+                [33mcl
+ass[39m=[32m"w-full 
+py-3 px-6 rounded-xl 
+bg-gradient-to-r 
+from-blue-600 
+to-violet-600 
+text-white 
+font-semibold text-sm 
+transition-all 
+hover:from-blue-500 
+hover:to-violet-500 
+hover:shadow-lg hover:s
+hadow-blue-500/25 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+disabled:opacity-50 dis
+abled:cursor-not-allowe
+d active:scale-[0.98]"
+[39m
+                [33mid
+[39m=[32m"login-submi
+t"[39m
+                [33mty
+pe[39m=[32m"submit"[
+39m
+              
+[36m>[39m
+                
+[0mIniciar sesi├│n[0m
+              
+[36m</button>[39m
+            
+[36m</form>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mt-6 
+text-center"[39m
+            [36m>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#4
+a5880] text-sm"[39m
+              
+[36m>[39m
+                
+[0m┬┐No tienes 
+cuenta?[0m
+                [0m 
+[0m
+                
+[36m<a[39m
+                  [33m
+class[39m=[32m"text-b
+lue-400 
+hover:text-blue-300 
+font-medium 
+transition-colors"[39m
+                  [33m
+href[39m=[32m"/regist
+er"[39m
+                
+[36m>[39m
+                  
+[0mReg├¡strate 
+gratis[0m
+                
+[36m</a>[39m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2mÔØ»[22m 
+Object.getElementError 
+node_modules/@testing-l
+ibrary/dom/dist/config.
+js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m 
+getAllByLabelText node_
+modules/@testing-librar
+y/dom/dist/queries/labe
+l-text.js:[2m108:40[2
+2m[39m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m52:17[22m[3
+9m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m95:19[22m[3
+9m
+[36m [2mÔØ»[22m src/
+app/login/login.test.ts
+x:[2m76:33[22m[39m
+    [90m 74| [39m    
+    [34mrender[39m([
+33m<[39m[33mLoginPage
+[39m [33m/[39m[33m>
+[39m)[33m;[39m
+    [90m 75| [39m
+    [90m 76| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Cor
+reo electr├│nico'[39m)
+[33m,[39m ÔÇª
+    [90m   | [39m    
+                       
+     [31m^[39m
+    [90m 77| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Con
+trase├▒a'[39m)[33m,[
+39m { targetÔÇª
+    [90m 78| [39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»[4/5]ÔÄ»[2
+2m[39m
+
+[31m[1m[7m FAIL 
+[27m[22m[39m src/app
+/login/login.test.tsx[
+2m > 
+[22mLoginPage[2m > 
+[22mhandles network 
+errors gracefully
+[31m[1mTestingLibrary
+ElementError[22m[39m:
+ Found a label with 
+the text of: Correo 
+electr├│nico, however 
+no form control was 
+found associated to 
+that label. Make sure 
+you're using the "for" 
+attribute or 
+"aria-labelledby" 
+attribute correctly.
+
+Ignored nodes: 
+comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=
+[32m"min-h-screen 
+bg-[#060912] flex"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"hidden lg:flex 
+lg:w-1/2 flex-col 
+justify-between p-12 
+relative 
+overflow-hidden"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+inset-0 
+bg-gradient-to-br 
+from-[#0f1629] 
+via-[#0a0f1e] 
+to-[#060912]"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+top-0 left-0 w-96 h-96 
+bg-blue-600/10 
+rounded-full blur-3xl 
+-translate-x-1/2 
+-translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"absolute 
+bottom-0 right-0 w-96 
+h-96 bg-violet-600/10 
+rounded-full blur-3xl 
+translate-x-1/2 
+translate-y-1/2"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center 
+gap-3"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center 
+shadow-lg shadow-blue-5
+00/25"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold text-white 
+tracking-tight"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative z-10 
+space-y-6"[39m
+        [36m>[39m
+          
+[36m<div>[39m
+            
+[36m<h1[39m
+              [33mclas
+s[39m=[32m"text-4xl 
+font-bold text-white 
+leading-tight 
+mb-4"[39m
+            [36m>[39m
+              [0mTu 
+vida financiera,[0m
+              [36m<br 
+/>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"bg-gradi
+ent-to-r from-blue-400 
+to-violet-400 
+bg-clip-text 
+text-transparent"[39m
+              
+[36m>[39m
+                
+[0mbajo control 
+total.[0m
+              
+[36m</span>[39m
+            
+[36m</h1>[39m
+            
+[36m<p[39m
+              [33mclas
+s[39m=[32m"text-[#889
+9cc] text-lg 
+leading-relaxed"[39m
+            [36m>[39m
+              
+[0mRegistra ingresos, 
+controla gastos, 
+construye tu ahorro y 
+gestiona tus ingresos 
+extraordinarios en un 
+solo lugar.[0m
+            
+[36m</p>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"space-y-4"[
+39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-emerald-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-trending-up 
+w-5 h-5 
+text-emerald-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M16 
+7h6v6"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"m22 
+7-8.5 8.5-5-5L2 
+17"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mFlujo de caja en 
+tiempo real[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-blue-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-chart-column 
+w-5 h-5 
+text-blue-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M3 
+3v16a2 2 0 0 0 2 
+2h16"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M18 
+17V9"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M13 
+17V5"[39m
+                  
+[36m/>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M8 
+17v-3"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mReportes 
+financieros 
+precisos[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"flex 
+items-center gap-4 
+group"[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"w-10 
+h-10 rounded-lg 
+bg-violet-400/10 flex 
+items-center 
+justify-center 
+flex-shrink-0 
+transition-transform gr
+oup-hover:scale-110"[3
+9m
+              
+[36m>[39m
+                
+[36m<svg[39m
+                  [33m
+aria-hidden[39m=[32m"
+true"[39m
+                  [33m
+class[39m=[32m"lucide
+ lucide-shield w-5 h-5 
+text-violet-400"[39m
+                  [33m
+fill[39m=[32m"none"[
+39m
+                  [33m
+height[39m=[32m"24"[
+39m
+                  [33m
+stroke[39m=[32m"curre
+ntColor"[39m
+                  [33m
+stroke-linecap[39m=[3
+2m"round"[39m
+                  [33m
+stroke-linejoin[39m=[
+32m"round"[39m
+                  [33m
+stroke-width[39m=[32m
+"2"[39m
+                  [33m
+viewBox[39m=[32m"0 0 
+24 24"[39m
+                  [33m
+width[39m=[32m"24"[3
+9m
+                  [33m
+xmlns[39m=[32m"http:/
+/www.w3.org/2000/svg"[
+39m
+                
+[36m>[39m
+                  
+[36m<path[39m
+                    
+[33md[39m=[32m"M20 
+13c0 5-3.5 7.5-7.66 
+8.95a1 1 0 0 
+1-.67-.01C7.5 20.5 4 
+18 4 13V6a1 1 0 0 1 
+1-1c2 0 4.5-1.2 
+6.24-2.72a1.17 1.17 0 
+0 1 1.52 0C14.51 3.81 
+17 5 19 5a1 1 0 0 1 1 
+1z"[39m
+                  
+[36m/>[39m
+                
+[36m</svg>[39m
+              
+[36m</div>[39m
+              
+[36m<span[39m
+                [33mcl
+ass[39m=[32m"text-[#c
+4d0ec] 
+font-medium"[39m
+              
+[36m>[39m
+                
+[0mDatos privados y 
+seguros[0m
+              
+[36m</span>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"relative 
+z-10"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass
+[39m=[32m"text-[#4a588
+0] text-sm"[39m
+          [36m>[39m
+            [0mÔÇ£El 
+control financiero no 
+es austeridad ÔÇö es 
+libertad.ÔÇØ[0m
+          
+[36m</p>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m
+=[32m"flex-1 flex 
+items-center 
+justify-center p-6 
+lg:p-12"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[3
+9m=[32m"w-full 
+max-w-md 
+animate-fade-in"[39m
+        [36m>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"flex 
+items-center gap-3 
+mb-8 lg:hidden"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"w-10 h-10 
+rounded-xl 
+bg-gradient-to-br 
+from-blue-500 
+to-violet-600 flex 
+items-center 
+justify-center"[39m
+            [36m>[39m
+              
+[36m<svg[39m
+                [33mar
+ia-hidden[39m=[32m"tr
+ue"[39m
+                [33mcl
+ass[39m=[32m"lucide 
+lucide-dollar-sign w-5 
+h-5 text-white"[39m
+                [33mfi
+ll[39m=[32m"none"[39
+m
+                [33mhe
+ight[39m=[32m"24"[39
+m
+                [33mst
+roke[39m=[32m"current
+Color"[39m
+                [33mst
+roke-linecap[39m=[32m
+"round"[39m
+                [33mst
+roke-linejoin[39m=[32
+m"round"[39m
+                [33mst
+roke-width[39m=[32m"2
+"[39m
+                [33mvi
+ewBox[39m=[32m"0 0 
+24 24"[39m
+                [33mwi
+dth[39m=[32m"24"[39m
+                [33mxm
+lns[39m=[32m"http://w
+ww.w3.org/2000/svg"[39
+m
+              
+[36m>[39m
+                
+[36m<line[39m
+                  [33m
+x1[39m=[32m"12"[39m
+                  [33m
+x2[39m=[32m"12"[39m
+                  [33m
+y1[39m=[32m"2"[39m
+                  [33m
+y2[39m=[32m"22"[39m
+                
+[36m/>[39m
+                
+[36m<path[39m
+                  
+[33md[39m=[32m"M17 
+5H9.5a3.5 3.5 0 0 0 0 
+7h5a3.5 3.5 0 0 1 0 
+7H6"[39m
+                
+[36m/>[39m
+              
+[36m</svg>[39m
+            
+[36m</div>[39m
+            
+[36m<span[39m
+              [33mclas
+s[39m=[32m"text-xl 
+font-bold 
+text-white"[39m
+            [36m>[39m
+              
+[0mFinanzas[0m
+            
+[36m</span>[39m
+          
+[36m</div>[39m
+          
+[36m<div[39m
+            [33mclass
+[39m=[32m"glass 
+rounded-2xl p-8 border 
+border-white/8"[39m
+          [36m>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mb-8"[39m
+            [36m>[39m
+              
+[36m<h2[39m
+                [33mcl
+ass[39m=[32m"text-2xl
+ font-bold text-white 
+mb-2"[39m
+              
+[36m>[39m
+                
+[0mBienvenido de 
+vuelta[0m
+              
+[36m</h2>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#8
+899cc]"[39m
+              
+[36m>[39m
+                
+[0mInicia sesi├│n 
+para ver tu resumen 
+financiero[0m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+            
+[36m<form[39m
+              [33mclas
+s[39m=[32m"space-y-5"
+[39m
+            [36m>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mCorreo 
+electr├│nico[0m
+                
+[36m</label>[39m
+                
+[36m<input[39m
+                  [33m
+autocomplete[39m=[32m
+"email"[39m
+                  [33m
+class[39m=[32m"w-full
+ px-4 py-3 rounded-xl 
+bg-white/5 border 
+border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm"[39m
+                  [33m
+id[39m=[32m"email"[3
+9m
+                  [33m
+placeholder[39m=[32m"
+tu@email.com"[39m
+                  [33m
+required[39m=[32m""[
+39m
+                  [33m
+type[39m=[32m"email"
+[39m
+                  [33m
+value[39m=[32m""[39m
+                
+[36m/>[39m
+              
+[36m</div>[39m
+              
+[36m<div[39m
+                [33mcl
+ass[39m=[32m"space-y-
+1.5"[39m
+              
+[36m>[39m
+                
+[36m<label[39m
+                  [33m
+class[39m=[32m"text-s
+m font-medium 
+text-[#c4d0ec]"[39m
+                
+[36m>[39m
+                  
+[0mContrase├▒a[0m
+                
+[36m</label>[39m
+                
+[36m<div[39m
+                  [33m
+class[39m=[32m"relati
+ve"[39m
+                
+[36m>[39m
+                  
+[36m<input[39m
+                    [3
+3mautocomplete[39m=[3
+2m"current-password"[3
+9m
+                    [3
+3mclass[39m=[32m"w-fu
+ll px-4 py-3 
+rounded-xl bg-white/5 
+border border-white/8 
+text-white 
+placeholder-[#4a5880] 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+focus:border-blue-500/5
+0 transition-all 
+text-sm pr-12"[39m
+                    [3
+3mid[39m=[32m"passwor
+d"[39m
+                    [3
+3mplaceholder[39m=[32
+m"ÔÇóÔÇóÔÇóÔÇóÔÇóÔÇóÔÇó
+ÔÇó"[39m
+                    [3
+3mrequired[39m=[32m""
+[39m
+                    [3
+3mtype[39m=[32m"passw
+ord"[39m
+                    [3
+3mvalue[39m=[32m""[3
+9m
+                  
+[36m/>[39m
+                  
+[36m<button[39m
+                    [3
+3mclass[39m=[32m"abso
+lute right-3.5 top-1/2 
+-translate-y-1/2 
+text-[#4a5880] 
+hover:text-[#8899cc] 
+transition-colors"[39m
+                    [3
+3mtype[39m=[32m"butto
+n"[39m
+                  
+[36m>[39m
+                    
+[36m<svg[39m
+                      
+[33maria-hidden[39m=[
+32m"true"[39m
+                      
+[33mclass[39m=[32m"lu
+cide lucide-eye w-4 
+h-4"[39m
+                      
+[33mfill[39m=[32m"non
+e"[39m
+                      
+[33mheight[39m=[32m"2
+4"[39m
+                      
+[33mstroke[39m=[32m"c
+urrentColor"[39m
+                      
+[33mstroke-linecap[39m
+=[32m"round"[39m
+                      
+[33mstroke-linejoin[39
+m=[32m"round"[39m
+                      
+[33mstroke-width[39m=
+[32m"2"[39m
+                      
+[33mviewBox[39m=[32m"
+0 0 24 24"[39m
+                      
+[33mwidth[39m=[32m"24
+"[39m
+                      
+[33mxmlns[39m=[32m"ht
+tp://www.w3.org/2000/sv
+g"[39m
+                    
+[36m>[39m
+                      
+[36m<path[39m
+                       
+ [33md[39m=[32m"M2.0
+62 12.348a1 1 0 0 1 
+0-.696 10.75 10.75 0 0 
+1 19.876 0 1 1 0 0 1 0 
+.696 10.75 10.75 0 0 
+1-19.876 0"[39m
+                      
+[36m/>[39m
+                      
+[36m<circle[39m
+                       
+ [33mcx[39m=[32m"12"
+[39m
+                       
+ [33mcy[39m=[32m"12"
+[39m
+                       
+ [33mr[39m=[32m"3"[
+39m
+                      
+[36m/>[39m
+                    
+[36m</svg>[39m
+                  
+[36m</button>[39m
+                
+[36m</div>[39m
+              
+[36m</div>[39m
+              
+[36m<button[39m
+                [33mcl
+ass[39m=[32m"w-full 
+py-3 px-6 rounded-xl 
+bg-gradient-to-r 
+from-blue-600 
+to-violet-600 
+text-white 
+font-semibold text-sm 
+transition-all 
+hover:from-blue-500 
+hover:to-violet-500 
+hover:shadow-lg hover:s
+hadow-blue-500/25 
+focus:outline-none 
+focus:ring-2 
+focus:ring-blue-500/50 
+disabled:opacity-50 dis
+abled:cursor-not-allowe
+d active:scale-[0.98]"
+[39m
+                [33mid
+[39m=[32m"login-submi
+t"[39m
+                [33mty
+pe[39m=[32m"submit"[
+39m
+              
+[36m>[39m
+                
+[0mIniciar sesi├│n[0m
+              
+[36m</button>[39m
+            
+[36m</form>[39m
+            
+[36m<div[39m
+              [33mclas
+s[39m=[32m"mt-6 
+text-center"[39m
+            [36m>[39m
+              
+[36m<p[39m
+                [33mcl
+ass[39m=[32m"text-[#4
+a5880] text-sm"[39m
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m5 failed[39m[22m[90m (5)[39m
+[2m   Start at [22m 17:41:03
+[2m   Duration [22m 1.83s[2m (transform 108ms, setup 323ms, collect 201ms, tests 108ms, environment 515ms, prepare 124ms)[22m
+
+              
+[36m>[39m
+                
+[0m┬┐No tienes 
+cuenta?[0m
+                [0m 
+[0m
+                
+[36m<a[39m
+                  [33m
+class[39m=[32m"text-b
+lue-400 
+hover:text-blue-300 
+font-medium 
+transition-colors"[39m
+                  [33m
+href[39m=[32m"/regist
+er"[39m
+                
+[36m>[39m
+                  
+[0mReg├¡strate 
+gratis[0m
+                
+[36m</a>[39m
+              
+[36m</p>[39m
+            
+[36m</div>[39m
+          
+[36m</div>[39m
+        
+[36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+[90m [2mÔØ»[22m 
+Object.getElementError 
+node_modules/@testing-l
+ibrary/dom/dist/config.
+js:[2m37:19[22m[39m
+[90m [2mÔØ»[22m 
+getAllByLabelText node_
+modules/@testing-librar
+y/dom/dist/queries/labe
+l-text.js:[2m108:40[2
+2m[39m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m52:17[22m[3
+9m
+[90m [2mÔØ»[22m node
+_modules/@testing-libra
+ry/dom/dist/query-helpe
+rs.js:[2m95:19[22m[3
+9m
+[36m [2mÔØ»[22m src/
+app/login/login.test.ts
+x:[2m92:33[22m[39m
+    [90m 90| [39m    
+    [34mrender[39m([
+33m<[39m[33mLoginPage
+[39m [33m/[39m[33m>
+[39m)[33m;[39m
+    [90m 91| [39m
+    [90m 92| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Cor
+reo electr├│nico'[39m)
+[33m,[39m ÔÇª
+    [90m   | [39m    
+                       
+     [31m^[39m
+    [90m 93| [39m    
+    fireEvent[33m.[39
+m[34mchange[39m(scree
+n[33m.[39m[34mgetByL
+abelText[39m([32m'Con
+trase├▒a'[39m)[33m,[
+39m { targetÔÇª
+    [90m 94| [39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ
+»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»
+ÔÄ»ÔÄ»ÔÄ»ÔÄ»[5/5]ÔÄ»[2
+2m[39m
+

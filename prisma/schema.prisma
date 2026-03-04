@@ -1,0 +1,211 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String                 @id @default(cuid())
+  email               String                 @unique
+  name                String
+  passwordHash        String
+  baseCurrency        String                 @default("COP")
+  status              UserStatus             @default(ACTIVE)
+  createdAt           DateTime               @default(now())
+  updatedAt           DateTime               @updatedAt
+  auditLogs           AuditLog[]
+  balanceSnapshots    BalanceSnapshot[]
+  budgets             Budget[]
+  extraordinaryIncome ExtraordinaryIncome[]
+  transactions        FinancialTransaction[]
+  savingsSections     SavingsSection[]
+  sessions            Session[]
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  ipAddress String?
+  userAgent String?
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model FinancialTransaction {
+  id                   String               @id @default(cuid())
+  userId               String
+  type                 TransactionType
+  subtype              TransactionSubtype   @default(ORDINARY)
+  amount               Decimal              @db.Decimal(19, 4)
+  currency             String               @default("COP")
+  category             String
+  description          String
+  source               String?
+  occurredAt           DateTime
+  registeredAt         DateTime             @default(now())
+  status               TransactionStatus    @default(CONFIRMED)
+  correlationId        String?
+  idempotencyKey       String               @unique
+  ruleEngineVersion    String               @default("1.0")
+  extraordinaryDetails ExtraordinaryIncome?
+  user                 User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  savingsDeposit       SavingsDeposit?
+
+  @@index([userId, occurredAt])
+  @@index([userId, status])
+  @@index([correlationId])
+  @@map("financial_transactions")
+}
+
+model SavingsSection {
+  id             String               @id @default(cuid())
+  userId         String
+  name           String
+  purpose        String?
+  strategyType   SavingsStrategyType
+  fixedAmount    Decimal?             @db.Decimal(19, 4)
+  percentage     Decimal?             @db.Decimal(5, 4)
+  goalAmount     Decimal?             @db.Decimal(19, 4)
+  goalDate       DateTime?
+  currentBalance Decimal              @default(0) @db.Decimal(19, 4)
+  status         SavingsSectionStatus @default(ACTIVE)
+  color          String               @default("#f59e0b")
+  emoji          String               @default("🏦")
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
+  deposits       SavingsDeposit[]
+  user           User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, status])
+  @@map("savings_sections")
+}
+
+model SavingsDeposit {
+  id               String               @id @default(cuid())
+  savingsSectionId String
+  transactionId    String               @unique
+  amount           Decimal              @db.Decimal(19, 4)
+  isWithdrawal     Boolean              @default(false)
+  createdAt        DateTime             @default(now())
+  savingsSection   SavingsSection       @relation(fields: [savingsSectionId], references: [id], onDelete: Cascade)
+  transaction      FinancialTransaction @relation(fields: [transactionId], references: [id])
+
+  @@map("savings_deposits")
+}
+
+model ExtraordinaryIncome {
+  id            String               @id @default(cuid())
+  userId        String
+  transactionId String               @unique
+  extraType     ExtraordinaryType
+  grossAmount   Decimal              @db.Decimal(19, 4)
+  netAmount     Decimal              @db.Decimal(19, 4)
+  fiscalPeriod  String?
+  isTaxExempt   Boolean              @default(false)
+  source        String?
+  createdAt     DateTime             @default(now())
+  transaction   FinancialTransaction @relation(fields: [transactionId], references: [id])
+  user          User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, extraType])
+  @@map("extraordinary_income")
+}
+
+model BalanceSnapshot {
+  id                 String   @id @default(cuid())
+  userId             String
+  periodEnd          DateTime
+  accumulatedBalance Decimal  @db.Decimal(19, 4)
+  totalIncome        Decimal  @db.Decimal(19, 4)
+  totalExpenses      Decimal  @db.Decimal(19, 4)
+  createdAt          DateTime @default(now())
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, periodEnd])
+  @@map("balance_snapshots")
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String
+  sessionId  String?
+  action     String
+  entityType String
+  entityId   String
+  before     Json?
+  after      Json?
+  ipAddress  String?
+  userAgent  String?
+  timestamp  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, timestamp])
+  @@index([entityId])
+  @@map("audit_logs")
+}
+
+model Budget {
+  id        String   @id @default(cuid())
+  userId    String
+  category  String
+  amount    Decimal  @db.Decimal(19, 4)
+  month     Int
+  year      Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, category, month, year])
+  @@map("budgets")
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  DELETED
+}
+
+enum TransactionType {
+  INCOME
+  EXPENSE
+}
+
+enum TransactionSubtype {
+  ORDINARY
+  EXTRAORDINARY
+}
+
+enum TransactionStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+}
+
+enum SavingsStrategyType {
+  FIXED
+  PERCENTAGE
+  GOAL
+}
+
+enum SavingsSectionStatus {
+  ACTIVE
+  PAUSED
+  COMPLETED
+  DISSOLVED
+}
+
+enum ExtraordinaryType {
+  PRIMA
+  CESANTIAS_INTEREST
+  BONUS
+  OTHER
+}

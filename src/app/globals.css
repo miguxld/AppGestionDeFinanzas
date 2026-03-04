@@ -1,0 +1,213 @@
+@import "tailwindcss";
+
+/* ============================================
+   FINANZAS PERSONALES — DESIGN SYSTEM
+   Dark Premium Financial Interface
+   ============================================ */
+
+@theme {
+  /* ── Typography ── */
+  --font-sans: "Geist", "Inter", system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Fira Code", monospace;
+
+  /* ── Brand Colors ── */
+  --color-brand-50:  #eef5ff;
+  --color-brand-100: #d9e8ff;
+  --color-brand-200: #bcd4ff;
+  --color-brand-300: #8fb5ff;
+  --color-brand-400: #598aff;
+  --color-brand-500: #3b65f5;
+  --color-brand-600: #2245ea;
+  --color-brand-700: #1a33d0;
+  --color-brand-800: #1b2ea9;
+  --color-brand-900: #1c2c85;
+
+  /* ── Surface/Background ── */
+  --color-surface-950: #060912;
+  --color-surface-900: #0a0f1e;
+  --color-surface-800: #0f1629;
+  --color-surface-700: #141d34;
+  --color-surface-600: #1a2540;
+  --color-surface-500: #1f2d4d;
+  --color-surface-400: #253459;
+  --color-surface-300: #2e3f6e;
+
+  /* ── Income Green ── */
+  --color-income-400: #34d399;
+  --color-income-500: #10b981;
+  --color-income-600: #059669;
+  --color-income-glow: rgba(16, 185, 129, 0.15);
+
+  /* ── Expense Rose ── */
+  --color-expense-400: #fb7185;
+  --color-expense-500: #f43f5e;
+  --color-expense-600: #e11d48;
+  --color-expense-glow: rgba(244, 63, 94, 0.15);
+
+  /* ── Savings Gold ── */
+  --color-savings-400: #fbbf24;
+  --color-savings-500: #f59e0b;
+  --color-savings-600: #d97706;
+  --color-savings-glow: rgba(245, 158, 11, 0.15);
+
+  /* ── Extraordinary Violet ── */
+  --color-extra-400: #a78bfa;
+  --color-extra-500: #8b5cf6;
+  --color-extra-600: #7c3aed;
+  --color-extra-glow: rgba(139, 92, 246, 0.15);
+
+  /* ── Text ── */
+  --color-text-primary:   #e2e8f8;
+  --color-text-secondary: #8899cc;
+  --color-text-muted:     #4a5880;
+  --color-text-disabled:  #2d3a5a;
+
+  /* ── Borders ── */
+  --color-border-subtle: rgba(255, 255, 255, 0.06);
+  --color-border-default: rgba(255, 255, 255, 0.10);
+  --color-border-strong: rgba(255, 255, 255, 0.18);
+}
+
+/* ── CSS Custom Properties (shadcn compatibility) ── */
+:root {
+  --background:        10 15 30;
+  --foreground:        226 232 248;
+  --card:              15 22 41;
+  --card-foreground:   226 232 248;
+  --popover:           15 22 41;
+  --popover-foreground:226 232 248;
+  --primary:           59 101 245;
+  --primary-foreground:255 255 255;
+  --secondary:         26 37 64;
+  --secondary-foreground: 226 232 248;
+  --muted:             20 29 52;
+  --muted-foreground:  136 153 204;
+  --accent:            31 45 77;
+  --accent-foreground: 226 232 248;
+  --destructive:       244 63 94;
+  --destructive-foreground: 255 255 255;
+  --border:            255 255 255 / 0.08;
+  --input:             255 255 255 / 0.06;
+  --ring:              59 101 245;
+  --radius:            0.75rem;
+}
+
+* {
+  border-color: rgb(var(--border));
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(10, 15, 30);
+  color: rgb(226, 232, 248);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.18); }
+
+/* ── Glassmorphism utility ── */
+.glass {
+  background: rgba(15, 22, 41, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-lighter {
+  background: rgba(26, 37, 64, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+/* ── Glow effects ── */
+.glow-income  { box-shadow: 0 0 20px rgba(16, 185, 129, 0.2), 0 0 60px rgba(16, 185, 129, 0.05); }
+.glow-expense { box-shadow: 0 0 20px rgba(244, 63, 94, 0.2),  0 0 60px rgba(244, 63, 94, 0.05); }
+.glow-savings { box-shadow: 0 0 20px rgba(245, 158, 11, 0.2), 0 0 60px rgba(245, 158, 11, 0.05); }
+.glow-extra   { box-shadow: 0 0 20px rgba(139, 92, 246, 0.2), 0 0 60px rgba(139, 92, 246, 0.05); }
+.glow-brand   { box-shadow: 0 0 20px rgba(59, 101, 245, 0.3), 0 0 60px rgba(59, 101, 245, 0.1); }
+
+/* ── Gradient text ── */
+.gradient-text-income {
+  background: linear-gradient(135deg, #34d399, #059669);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-expense {
+  background: linear-gradient(135deg, #fb7185, #e11d48);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-brand {
+  background: linear-gradient(135deg, #598aff, #3b65f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-savings {
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Card hover micro-animation ── */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+/* ── Fade in animation ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in { animation: fadeIn 0.4s ease forwards; }
+
+/* ── Pulse dot (live indicator) ── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.3); }
+}
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+/* ── Number shimmer on load ── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.04) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* ── Sidebar transition ── */
+.sidebar-link {
+  transition: background 0.15s ease, color 0.15s ease, padding-left 0.15s ease;
+}
+.sidebar-link:hover {
+  background: rgba(255,255,255,0.05);
+}
+.sidebar-link.active {
+  background: rgba(59, 101, 245, 0.15);
+  color: #598aff;
+  border-left: 2px solid #3b65f5;
+}
