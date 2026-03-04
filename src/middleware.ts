@@ -1,7 +1,10 @@
 // src/middleware.ts
-// Route protection — redirects unauthenticated users to /login
+// Route protection — uses edge-compatible auth config (no bcrypt/prisma)
 
-export { auth as middleware } from "@/server/auth";
+import NextAuth from "next-auth";
+import { authConfig } from "@/server/auth.config";
+
+export default NextAuth(authConfig).auth;
 
 export const config = {
     matcher: ["/((?!login|register|api/auth|api/trpc|_next/static|_next/image|favicon.ico).*)"],

@@ -1,11 +1,13 @@
 // src/server/auth.ts
-// Auth.js v5 configuration with credentials provider
+// Full Auth.js v5 configuration with credentials provider
+// This file includes heavy dependencies (bcrypt, prisma) and runs server-side only.
 
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { db } from "@/server/infrastructure/db/prisma";
 import bcrypt from "bcryptjs";
 import { z } from "zod";
+import { authConfig } from "./auth.config";
 
 const loginSchema = z.object({
     email: z.string().email(),
@@ -13,11 +15,7 @@ const loginSchema = z.object({
 });
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
-    session: { strategy: "jwt", maxAge: 30 * 24 * 60 * 60 },
-    pages: {
-        signIn: "/login",
-        error: "/login",
-    },
+    ...authConfig,
     providers: [
         CredentialsProvider({
             name: "credentials",
@@ -48,25 +46,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             },
         }),
     ],
-    callbacks: {
-        async jwt({ token, user }) {
-            if (user) {
-                token.id = user.id;
-                token.email = user.email;
-                token.name = user.name;
-            }
-            return token;
-        },
-        async session({ session, token }) {
-            if (token && session.user) {
-                session.user.id = token.id as string;
-                session.user.email = token.email as string;
-                session.user.name = token.name as string;
-            }
-            return session;
-        },
-    },
-    secret: process.env.NEXTAUTH_SECRET,
 });
 
 // Extend types
